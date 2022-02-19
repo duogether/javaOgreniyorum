@@ -26,7 +26,7 @@ public class BasitHesapMakinesi {
     }
 
     public static void islem() {
-        System.out.println(ConsoleColors.RED_BOLD + "Basit Hesap Makinesi" + ConsoleColors.RESET);
+        System.out.println("Basit Hesap Makinesi");
         System.out.println("Yapmak istediğiniz işlemi seçiniz.(1-6)\n1-Toplama\n2-Çıkarma\n3-Bölme\n4-Çarpma\n5-Yüzde");
         int secimIlk = sc.nextInt();
         switch (secimIlk) {
